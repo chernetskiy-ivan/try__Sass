@@ -1,12 +1,21 @@
-$myFont: Helvetica, sans-serif;
+//$myFont: Helvetica, sans-serif;
 $myBackgroundColor: red;
-$myFontSize: 18px;
+//$myFontSize: 18px;
 $myWidth: 680px;
 $myColor: green;
 
 body {
-  font-family: $myFont;
-  font-size: $myFontSize;
+  font: {
+    family: Helvetica, sans-serif;
+    size: 18px;
+    weight: bold;
+  }
+
+  text: {
+    align: center;
+    transform: lowercase;
+    overflow: hidden;
+  }
   background: $myBackgroundColor;
 }
 
