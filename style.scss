@@ -2,6 +2,7 @@ $myFont: Helvetica, sans-serif;
 $myBackgroundColor: red;
 $myFontSize: 18px;
 $myWidth: 680px;
+$myColor: green;
 
 body {
   font-family: $myFont;
@@ -9,6 +10,15 @@ body {
   background: $myBackgroundColor;
 }
 
-#container {
-  width: $myWidth;
+h1{
+  //как видим - доступны комментарии данного вида
+  //также значение переменной можно изменить в данном блоке
+  $myColor: black;
+  color: $myColor;
 }
+
+.container {
+  width: $myWidth;
+  color: $myColor;
+}
+

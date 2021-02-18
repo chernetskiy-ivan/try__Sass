@@ -3,7 +3,11 @@ body {
   font-size: 18px;
   background: red; }
 
-#container {
-  width: 680px; }
+h1 {
+  color: black; }
+
+.container {
+  width: 680px;
+  color: green; }
 
 /*# sourceMappingURL=style.css.map */
